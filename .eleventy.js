@@ -1,13 +1,16 @@
 const { EleventyI18nPlugin } = require("@11ty/eleventy");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
-
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 module.exports = function(eleventyConfig) {
+
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("svg");
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("favicon.ico");
+
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: "en", 
@@ -64,4 +67,4 @@ module.exports = function(eleventyConfig) {
       }
     }
   });
-}
+};
