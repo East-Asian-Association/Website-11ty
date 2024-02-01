@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="{{page.lang}}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/css/bundle.css">
+    <link rel="stylesheet" href="/css/{{ css }}" />
+  </head>
+  <body>
+    <header class="box-shadow">
+      {% include "partials/header.liquid" %}
+    </header>
+    {{ content }}
+    <footer class="box-shadow">
+      {% include "partials/footer.liquid" %}
+    </footer>
+  </body>
+</html>

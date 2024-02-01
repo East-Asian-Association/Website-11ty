@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+      url('/fonts/BarlowSemiCondensed-Regular.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+      url('/fonts/BarlowSemiCondensed-Bold.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 200;
+  src: local(''),
+      url('/fonts/BarlowSemiCondensed-Light.woff2') format('woff2')
+}
+
+@keyframes fade-in {
+  from { opacity: 1; }
+  to { opacity: 0.8; }
+}
+
+@keyframes fade-out {
+  from { opacity: 0.8; }
+  to { opacity: 1; }
+}
+
+:root {
+  --white: #f7f7f7;
+  --red: #911f2a;
+  --black: #1A1A1A;
+  --gray: #e4e4e4;
+  --dark-gray: #b1b1b1;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Barlow;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+strong {
+  font-weight: bold;
+}
+
+.redOnHover {
+  color: var(--black);
+}
+
+.redOnHover:hover {
+  color: var(--red); 
+  cursor: pointer;
+}
+
+.fadeOnHover {
+  animation: fade-out 0.2s forwards;
+}
+
+.fadeOnHover:hover {
+  animation: fade-in 0.2s forwards;
+  cursor: pointer;
+}
+
+.centered {
+  margin: 0;
+  position: absolute;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+}

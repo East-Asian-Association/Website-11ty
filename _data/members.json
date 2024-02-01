@@ -1,0 +1,90 @@
+[
+    {
+        "post": "President",
+        "name": "János Kondri",
+        "studorgmail": "ordf@eastasian.studorg.liu.se",
+        "gmail": "ordf.eaa@gmail.com",
+        "img": "president.jpg"
+       
+    },
+    {
+        "post": "Vice President",
+        "name": "Jesper Eriksson",
+        "studorgmail": "vordf@eastasian.studorg.liu.se",
+        "gmail": "vordf.eaa@gmail.com",
+        "img": "vice.jpg"
+        
+    },
+    {
+        "post": "Treasurer",
+        "name": "Oskar Savinainen",
+        "studorgmail": "kassor@eastasian.studorg.liu.se",
+        "gmail": "kassor.eaa@gmail.com",
+        "img": "treasure.jpg"
+        
+    },
+    {
+        "post": "Secretary & Business",
+        "name": "Ebba Silfver",
+        "studorgmail": "naringsliv@eastasian.studorg.liu.se",
+        "gmail": "naringsliv.eaa@gmail.com",
+        "img": "secretary.jpg"        
+    },
+    {
+        "post": "AMO",
+        "name": "Carl Earles",
+        "studorgmail": "amo@eastasian.studorg.liu.se",
+        "gmail": "amo.eaa.liu@gmail.com",
+        "img": "amo.jpg"
+    },
+    {
+        "post": "Head of Conversation Corner",
+        "name": "Pongpol Jarudrungchawalit",
+        "studorgmail": "cc@eastasian.studorg.liu.se",
+        "gmail": "ccansvarig.eaa@gmail.com",
+        "img": "cc.jpg"
+    },
+    {
+        "post": "Head of Event",
+        "name": "Raman Ahmadi",
+        "studorgmail": "event@eastasian.studorg.liu.se",
+        "gmail": "eventansvarig.eaa@gmail.com",
+        "img": "event.jpg"
+        
+    },
+    {
+        "post": "General of TEKKEN",
+        "name": "Folke Wickbom",
+        "studorgmail": "general@eastasian.studorg.liu.se",
+        "gmail": "generalen.eaa@gmail.com"
+    },
+    {
+        "post": "Head of Design",
+        "name": "Linn Jägestedt",
+        "studorgmail": "info@eastasian.studorg.liu.se",
+        "gmail": "infoansvarig.eaa@gmail.com"
+    },
+    {
+        "post": "Educational Committee",
+        "name": "Noah Svedlund Avereyireh",
+        "studorgmail": "snordf@eastasian.studorg.liu.se",
+        "gmail": "snordf.eaa@gmail.com",
+        "img": "snordf.jpg"
+        
+    },
+    {
+        "post": "Head of IT",
+        "name": "Johan Törner",
+        "studorgmail": "",
+        "gmail": "N/A",
+        "img": "it.jpg"
+    },
+    {
+        "post": "Head of Language Exchange",
+        "name": "Reika Sato",
+        "studorgmail": "",
+        "gmail": "utbytes.eaa@gmail.com",
+        "img": "language.jpg"
+    }
+    
+]

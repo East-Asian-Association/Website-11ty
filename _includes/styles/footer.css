@@ -1,0 +1,78 @@
+footer {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 800px;
+  margin: auto;
+  padding: 80px 0 160px 0;
+}
+
+@media (max-width: 950px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    max-width: 300px;
+    padding: 60px 0 60px 0;
+  }
+}
+
+.footer-grid-item {
+  margin: auto;
+  height: 140px;
+}
+
+@media (max-width: 950px) {
+  #Contact {
+    padding-top: 40px;
+    grid-row: 2;
+    grid-column: 1/3;
+  }
+}
+
+footer h1 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: var(--red);
+}
+
+footer p {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 14px;
+  line-height: 0.7;
+}
+
+footer hr {
+  width: 100px;
+  margin-bottom: 20px;
+  border-color: var(--gray);
+}
+
+/* Social Media buttons */
+
+.fa { 
+  border-radius: 4px;
+  padding: 10px;
+  margin: 8px 4px 0px 4px;
+  font-size: 25px !important;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  animation: fade-out 0.2s forwards;
+}
+
+.social-media-button { 
+  display: inline-block;
+  border-radius: 4px;
+  padding: 12px;
+  margin: 8px 4px 0px 4px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--red);
+}

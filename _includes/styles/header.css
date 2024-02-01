@@ -1,0 +1,127 @@
+/* Header */
+
+header {
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    z-index: 2;
+    text-align: center;
+    background-color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  
+  .topnav {
+    max-width: calc(100vw - 20px);
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  @media (max-width: 950px) {
+    .topnav {
+      display: block;
+      margin: 0;
+      z-index: 1;
+    }
+  }
+  
+  /* Navbar */
+  
+  .topnav ul {
+    margin-right: 20px;
+    transition: 0.4s;
+    background-color: var(--white);
+  }
+  
+  @media (max-width: 950px) {
+    .topnav ul {
+      position: absolute;
+      top: -190px;
+      width: 100%;
+      padding: 10px 0 0 0 ;
+      margin: 0;
+      right: 0;
+      z-index: -1;
+    }
+  }
+  
+  .topnav li {
+    display: inline;   
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .topnav li a,
+  .topnav li a:link,
+  .topnav li a:active {
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;  
+    color: inherit;
+    margin: 0px 8px;
+  }
+
+  .topnav li:not(:last-child)::after {
+    content: "|";
+  }
+
+  @media (max-width: 950px) {
+    .topnav li {
+      text-align: left;
+      display:  block;
+      padding: 0px 0px 20px 20px;
+    }
+  }
+  
+  /* Logo */
+  
+  .topnav-logo {
+    height: 60px;
+    width: 240px;
+    filter: grayscale(1);
+  }
+  
+  .topnav-logo:hover {
+    filter: grayscale(0);
+  }
+  
+  .topnav-logo-wrapper {
+    height: 100%;
+  }
+  
+  @media (max-width: 950px) {
+    .topnav-logo {
+      float: left;
+      margin-left: 8px;
+    }
+  }
+  
+  /* Toggle Icon */
+  
+  .topnav-toggle {
+    display: none;
+  }
+  
+  @media (max-width: 950px) {
+    .topnav-toggle {
+      display: inline;
+      width: 30px;
+      margin: 15px 0px 15px 0px;
+      float: right;
+      padding: 0;
+      border: none;
+      filter: grayscale();
+      background-color: transparent;
+    }
+  
+    .topnav-toggle:hover {
+      filter: none;
+      cursor: pointer;
+    }
+  }
+  
+  .topnav-toggle-icon {
+    width: 100%;
+    height: auto;
+  }

@@ -1,0 +1,28 @@
+---
+layout: layouts/layout.liquid
+css: "article.css" 
+---
+
+<main class="main">
+  <nav class="sidenav">
+    <ul>
+      {%- for item in collections[tags.first] -%}
+        {% if item.page.lang == page.lang %}
+          <a href={{ item.url }}>
+            <li
+              {% if title == item.data.title %}
+              class="selected"
+              {% endif %}>
+              {{ item.data.title }}
+            </li>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <article>
+    <h2>{{ title }}</h2>
+    {{ content }}
+  </article>
+</main>

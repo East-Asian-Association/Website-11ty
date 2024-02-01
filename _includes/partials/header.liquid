@@ -1,0 +1,42 @@
+<nav class="topnav">
+    <a href='/{{ page.lang }}' class="topnav-logo-wrapper">
+        <img class="topnav-logo" src="/svg/topnav-logo.svg"></img>
+    </a>
+
+    <button class="topnav-toggle" onClick='toggleNavbar()'>
+        <img class="topnav-toggle-icon" src="/svg/topnav-toggle-icon.svg"></img>
+    </button>
+
+    <ul id="links" class="black white-bg">
+        {%- for item in collections.index -%}
+            {% if item.page.lang == page.lang %}
+                <li>
+                    <a class="redOnHover" href={{ item.url }}>
+                        {{ item.data.title }}
+                    </a>
+                </li>
+            {% endif %}
+        {%- endfor -%}
+    </ul>
+    
+    <ul id="langs" class="black white-bg">
+        {% assign links = page.url | locale_links %}
+        {%- for link in links -%}
+            <li>
+                <a class="redOnHover" href={{link.url}} lang={{link.lang}} hreflang={{link.lang}}>
+                    {{ link.lang }}
+                </a>
+            </li>
+        {%- endfor -%}
+    </ul>
+</nav>
+
+<script>
+    var collapsed = true;
+    const element = document.getElementById("links");
+
+    function toggleNavbar () {
+        collapsed = !collapsed; 
+        element.style.top = collapsed ? "-190px" : "60px";
+    }
+</script>

@@ -1,0 +1,48 @@
+---
+title: Events
+layout: layouts/article.liquid
+tags: events
+sideNavOrder: 1
+topNavOrder: 4
+pagination:
+  data: collections.post
+  size: 2
+  alias: posts
+permalink: "/en/events/{{ pagination.pageNumber | plus: 1 }}/"
+---
+
+<ul class="post-list">
+  {% for item in posts %}
+    <li>
+      {{ item.content }}
+    </li>
+  {% endfor %}
+</ul>
+
+<nav class="paginator">
+  {% if pagination.pageNumber > 0 %}
+    <a href="/en/events/{{ pagination.pageNumber }}">
+      ←
+    </a>
+  {% else %}
+    <a style="visibility: hidden;">
+      ←
+    </a>
+  {% endif %}
+
+  <span>
+    Page {{ pagination.pageNumber | plus: 1 }}
+  </span>
+
+  {% assign count = posts | size | divided_by: pagination.size %}
+
+  {% if pagination.pageNumber < count %}
+    <a href="/en/events/{{ pagination.pageNumber | plus: 2 }}">
+      →
+    </a>
+  {% else %}
+    <a style="visibility: hidden;">
+      →
+    </a>
+  {% endif %}
+</nav>
