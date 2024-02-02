@@ -1,7 +1,7 @@
 ---
 title: Offerings
 layout: layouts/article.liquid
-permalink: /en/sponors/offerings.html
+permalink: /en/sponsors/offerings.html
 tags: sponors
 sideNavOrder: 2
 ---
