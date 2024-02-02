@@ -7,18 +7,6 @@
   display: block;
 }
 
-@media (max-width: 950px) {
-  .banner {
-    height: 500px;
-  }
-}
-
-@media (max-width: 500px) {
-  .banner {
-    height: 100vw;
-  }
-}
-
 .banner-background {
   height: 100%;
   background-image: url('/img/banner_2023.webp');
@@ -31,49 +19,23 @@
   text-shadow: 0px 0px 40px #000, 0px 0px 40px #000;
 }
 
-.banner-text #top {
-  font-size: 50px;
+.banner-text p {
   margin: 0;
 }
 
-.banner-text #middle {
+.banner-text-top {
+  font-size: 50px;
+}
+
+.banner-text-middle {
   font-size: 75px;
-  margin: 0;
+  font-weight: bold;
 }
 
-.banner-text #bottom {
+.banner-text-bottom {
   font-size: 50px;
-  margin: 0;
 }
 
-@media (max-width: 950px) {
-  .banner-text #top {
-    font-size: 27px;
-  }
-  
-  .banner-text #middle {
-    font-size: 40px;
-  }
-  
-  .banner-text #bottom {
-    font-size: 27px;
-  }
-}
-
-
-@media (max-width: 500px) {
-  .banner-text #top {
-    font-size: 5.26vw;
-  }
-  
-  .banner-text #middle {
-    font-size: 7.9vw;
-  }
-  
-  .banner-text #bottom {
-    font-size: 5.26vw;
-  }
-}
 
 .banner-button {
   margin-top: 30px;
@@ -91,26 +53,6 @@
   color: var(--black);
 }
 
-@media (max-width: 950px) {
-  .banner-button {
-    margin-top: 20px;
-  }
-  .banner-button p {
-    padding: 6px 18px;
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 500px) {
-  .banner-button {
-    margin-top: 4vw;
-  }
-  .banner-button p {
-    padding: 1.2vw 3.6vw;
-    font-size: 3vw;
-  }
-}
-
 .panel-container {
   display: inline-flex;
   flex-direction: row;
@@ -126,22 +68,8 @@
   flex-direction: row-reverse;
 }
 
-.reversed p {
+.reversed p, .reversed strong, .reversed h1 {
   color: var(--white) !important;
-}
-
-.reversed strong {
-  color: var(--white) !important;
-}
-
-.reversed h1 {
-  color: var(--white) !important;
-}
-
-@media (max-width: 950px) {
-  .panel-container, .reversed {
-    flex-direction: column;
-  }
 }
 
 .panel {
@@ -149,18 +77,6 @@
   text-align: center;
   height: calc(50% - 160px);
   display: block;
-}
-
-@media (max-width: 950px) {
-  .panel {
-    padding: 30px 20px;
-  }
-}
-
-@media (max-width: 500px) {
-  .panel {
-    padding: 6vw 4vw;
-  }
 }
 
 .panel-image {
@@ -171,27 +87,6 @@
 .panel-image img {
   height: 100%;
   border-radius: 20px;
-}
-
-@media (max-width: 950px) {
-  .panel-image {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 500px) {
-  .panel-image {
-    width: 85%;
-    height: auto;
-    margin: auto;
-    margin-top: 4vw;
-    margin-bottom: 4vw;
-  }
-  .panel-image img {
-    width: 100%;
-    height: auto;
-  }
 }
 
 .panel strong {
@@ -209,7 +104,52 @@
   font-family: Barlow;
 }
 
+.panel-spacer {
+  width: 60px;
+  height: auto;
+  flex-shrink: 0;
+}
+
 @media (max-width: 950px) {
+  .banner {
+    height: 500px;
+  }
+
+  .banner-text-top {
+    font-size: 27px;
+  }
+  
+  .banner-text-middle {
+    font-size: 40px;
+  }
+  
+
+  .banner-text-bottom {
+    font-size: 27px;
+  }
+
+  .banner-button {
+    margin-top: 20px;
+  }
+
+  .banner-button p {
+    padding: 6px 18px;
+    font-size: 15px;
+  }
+
+  .panel-container, .reversed .panel-container {
+    flex-direction: column;
+  }
+
+  .panel {
+    padding: 40px 20px;
+  }
+  
+  .panel-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .panel-text {
     width: 391px;
     height: 50%;
@@ -226,26 +166,64 @@
 }
 
 @media (max-width: 500px) {
+  .banner {
+    height: 100vw;
+  }
+
+  .banner-text-top {
+    font-size: 5.26vw;
+  }
+  
+  .banner-text-middle {
+    font-size: 7.9vw;
+  }
+  
+  .banner-text-bottom {
+    font-size: 5.26vw;
+  }
+
+  .banner-button {
+    margin-top: 4vw;
+  }
+
+  .banner-button p {
+    padding: 1.2vw 3.6vw;
+    font-size: 3vw;
+  }
+  
+  .panel {
+    padding: 6vw 4vw;
+  }
+
+  .panel-image {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+  }
+  .panel-image img {
+    width: 100%;
+    height: auto;
+  }
+
   .panel-text {
     width: 87%;
     margin: auto;
   }
+
   .panel-text p, h1 {
     margin-left: 2vw;
     margin-right: 2vw;
   }
+
   .panel-text p {
     font-size: 4vw;
   }
+  
   .panel-text h1 {
     font-size: 6.4vw;
     margin-top: 2vw;
     margin-bottom: 5vw;
   }
-}
-
-.panel-spacer {
-  width: 60px;
-  height: auto;
-  flex-shrink: 0;
 }

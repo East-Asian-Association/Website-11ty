@@ -1,0 +1,9 @@
+{
+    "short_name": "EAA",
+    "name": "East Asian Association",
+    "description": "The official website of East Aisan Association at Linköping university",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#911f2a",
+    "background_color": "#f7f7f7"
+  }

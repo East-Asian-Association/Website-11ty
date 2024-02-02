@@ -1,0 +1,53 @@
+---
+layout: layouts/layout.liquid
+css: "index.css" 
+---
+<main class="frontpage">
+  <div id="banner" class="banner">
+    <div class="banner-background"></div>
+    <div class="banner-text centered">
+      <p class="banner-text-top">
+        {{ translations[page.lang].bannerTextTop }}
+      </p>
+      <p class="banner-text-middle">
+        {{ translations[page.lang].bannerTextMiddle }}
+      </p>
+      <p class="banner-text-bottom">
+        {{ translations[page.lang].bannerTextBottom }}
+      </p>
+      <button class="banner-button fadeOnHover" onClick=scrollToContent()>
+        <p>Learn more</p>
+      </button>
+    </div>
+  </div>
+  <div id="learn-more" class="summary">
+    {% for panel in translations[page.lang].panels %}
+      <div class="panel {% cycle '', 'reversed' %}">
+        <div class="panel-container">
+          <div class="panel-image">
+            <img src="{{ panel.img }}" alt="cc-fika">
+          </div>
+          <div class="panel-spacer"></div>
+          <div class="panel-text">
+            <h1>{{ panel.title }}</h1>
+            {% for pragraf in panel.paragrafs %}
+              <p>
+                {{ pragraf }}
+              </p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</main>
+
+<script>
+  function scrollToContent() {
+    const element = document.getElementById("banner");
+    scroll({
+      top: element.scrollHeight - 60,
+      behavior: "smooth",
+    });
+  }
+</script>

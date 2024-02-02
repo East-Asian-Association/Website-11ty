@@ -1,0 +1,41 @@
+{
+    "en": {
+        "bannerTextTop": "Welcome to the",
+        "bannerTextMiddle": "EAST ASIAN ASSOCIATION",
+        "bannerTextBottom": "Linköping University",
+        "bannerButtonText": "Learn more",
+        "panels": [
+            {
+                "title": "Conversation Corner",
+                "paragrafs": [
+                    "CC is a place for <strong>Cultural Exchange</strong> <strong>Language Learning</strong> and making new <strong>Friends</strong>.",
+                    "We meet every <strong>Tuesday</strong> and <strong>Thursday</strong> at <strong>17:15</strong> and all students at Linköping University are welcome!",
+                    "<strong>Free Fika</strong> is also available for all our members!</p>"
+                ],
+                "img": "/img/cc-fika.jpg"
+            },
+            {
+                "title": "Asienkunskap",
+                "paragrafs": [
+                    "EAA is a Student Division (Sektion) at Linköping University responsible for the program <strong>Asienkunskap</strong>.",
+                    "The program covers one year of language studies in either <strong>Japanese</strong> or <strong>Chinese</strong>, aswell as <strong>North-East Asian</strong> <strong>History</strong> and <strong>Politics</strong>"
+                ],
+                "img": "/img/asienkunskap.jpg"
+            },
+            {
+                "title": "Sponsorships",
+                "paragrafs": [
+                    "Our student association has <strong>14 years</strong> of experience and annually over <strong>200 active members</strong>.",
+                    "We offer various collaboration opportunities such as <strong>Lunch seminars</strong> and <strong>Case events</strong>."
+                ],
+                "img": "/img/sponsor.jpg"
+            }
+        ]
+    },
+    "sv": {
+
+    },
+    "jp": {
+
+    }
+}

@@ -53,15 +53,6 @@ strong {
   font-weight: bold;
 }
 
-.redOnHover {
-  color: var(--black);
-}
-
-.redOnHover:hover {
-  color: var(--red); 
-  cursor: pointer;
-}
-
 .fadeOnHover {
   animation: fade-out 0.2s forwards;
 }
