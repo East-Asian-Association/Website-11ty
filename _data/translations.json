@@ -33,9 +33,55 @@
         ]
     },
     "sv": {
-
+        "bannerTextTop": "Välkommen till",
+        "bannerTextMiddle": "ÖSTASIATISKA FÖRENINGEN",
+        "bannerTextBottom": "Linköpings Universitet",
+        "bannerButtonText": "Läs mer",
+        "panels": [
+            {
+                "title": "Conversation Corner",
+                "paragrafs": [
+                ],
+                "img": "/img/cc-fika.jpg"
+            },
+            {
+                "title": "Asienkunskap",
+                "paragrafs": [
+                ],
+                "img": "/img/asienkunskap.jpg"
+            },
+            {
+                "title": "Sponsring",
+                "paragrafs": [
+                ],
+                "img": "/img/sponsor.jpg"
+            }
+        ]
     },
-    "jp": {
-
+    "ja": {
+        "bannerTextTop": "いっらしゃいませ!",
+        "bannerTextMiddle": "東アジア協会へようこそ",
+        "bannerTextBottom": "リンショーピン大学",
+        "bannerButtonText": "読みを続ける",
+        "panels": [
+            {
+                "title": "コンバセーション・コーナー",
+                "paragrafs": [
+                ],
+                "img": "/img/cc-fika.jpg"
+            },
+            {
+                "title": "東アジア学",
+                "paragrafs": [
+                ],
+                "img": "/img/asienkunskap.jpg"
+            },
+            {
+                "title": "スポンサー",
+                "paragrafs": [
+                ],
+                "img": "/img/sponsor.jpg"
+            }
+        ]
     }
 }

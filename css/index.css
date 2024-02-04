@@ -21,6 +21,7 @@
 
 .banner-text p {
   margin: 0;
+  font-weight: bold;
 }
 
 .banner-text-top {
@@ -29,7 +30,8 @@
 
 .banner-text-middle {
   font-size: 75px;
-  font-weight: bold;
+  font-weight: 900;
+  font-family: Barlow-Bold;
 }
 
 .banner-text-bottom {
