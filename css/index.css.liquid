@@ -13,7 +13,7 @@ permalink: css/index.css
 
 .banner-background {
   height: 100%;
-  background-image: url('/img/banner_2023.webp');
+  background-image: url(" {{ '/img/banner_2023.webp' | htmlBaseUrl }} ");
   background-size: cover;
   background-position: center;
   filter: saturate(0.7) brightness(1.2) blur(3px);
