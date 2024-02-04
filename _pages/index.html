@@ -3,18 +3,4 @@ title: index
 permalink: /
 ---
 
-<script type="text/javascript">
-    const supportedLanguages = [
-        "en",
-        "ja",
-        "sv"
-    ];
-
-    const locale = navigator.language || navigator.userLanguage; 
-    const lang = locale.split('-')[0];
-    if (supportedLanguages.includes(lang)) {
-        window.location.replace("/" + lang);
-    } else {
-        window.location.replace("/" + "en");
-    }
-</script>
+<redirect to="&client.accept-language/" type="permanent"></redirect>
