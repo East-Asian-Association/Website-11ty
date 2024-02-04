@@ -1,8 +1,8 @@
 ---
-title: Asienkunskap
+title: Asia Studies
 layout: layouts/article.liquid
-permalink: /ja/asienkunskap/
-tags: asienkunskap 
+permalink: /en/asia-studies/
+tags: asia-studies
 sideNavOrder: 1
 topNavOrder: 5
 --- 

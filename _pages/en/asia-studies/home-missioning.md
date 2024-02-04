@@ -1,8 +1,8 @@
 ---
-title: hemmissionering
+title: Home missioning
 layout: layouts/article.liquid
-permalink: /sv/asienkunskap/home-missioning.html
-tags: asienkunskap
+permalink: /en/asia-studies/home-missioning.html
+tags: asia-studies
 sideNavOrder: 6
 ---
 

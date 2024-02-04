@@ -36,8 +36,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("events", function(collectionApi) {
     return collectionApi.getFilteredByTag("events").filter((item) => "sideNavOrder" in item.data).sort((a, b) => a.data.sideNavOrder - b.data.sideNavOrder);
   });
-  eleventyConfig.addCollection("asienkunskap", function(collectionApi) {
-    return collectionApi.getFilteredByTag("asienkunskap").filter((item) => "sideNavOrder" in item.data).sort((a, b) => a.data.sideNavOrder - b.data.sideNavOrder);
+  eleventyConfig.addCollection("asia-studies", function(collectionApi) {
+    return collectionApi.getFilteredByTag("asia-studies").filter((item) => "sideNavOrder" in item.data).sort((a, b) => a.data.sideNavOrder - b.data.sideNavOrder);
   });
   eleventyConfig.addCollection("international-students", function(collectionApi) {
     return collectionApi.getFilteredByTag("international-students").filter((item) => "sideNavOrder" in item.data).sort((a, b) => a.data.sideNavOrder - b.data.sideNavOrder);

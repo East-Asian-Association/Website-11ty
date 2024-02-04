@@ -1,7 +1,7 @@
 ---
 title: resurser
 layout: layouts/article.liquid
-permalink: /en/asienkunskap/resources.html
-tags: asienkunskap
+permalink: /en/asia-studies/resources.html
+tags: asia-studies
 sideNavOrder: 4
 ---
