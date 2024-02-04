@@ -1,17 +1,21 @@
+---
+permalink: css/site.css
+---
+
 @font-face {
   font-family: 'Barlow';
   font-style: normal;
   font-weight: 400;
-  src: local(''),
-      url('/fonts/BarlowSemiCondensed-Regular.woff2') format('woff2')
+  src: local('')
+  , url("{{ '/fonts/BarlowSemiCondensed-Regular.woff2' | htmlBaseUrl }}") format('woff2')
 }
 
 @font-face {
   font-family: 'Barlow';
   font-style: normal;
   font-weight: bold;
-  src: local(''),
-      url('/fonts/BarlowSemiCondensed-SemiBold.woff2') format('woff2')
+  src: local('')
+  , url('{{ '/fonts/BarlowSemiCondensed-Regular.woff2' | htmlBaseUrl }}/fonts/BarlowSemiCondensed-SemiBold.woff2') format('woff2')
 }
 
 
@@ -19,18 +23,26 @@
   font-family: 'Barlow-Bold';
   font-style: normal;
   font-weight: 900;
-  src: local(''),
-      url('/fonts/BarlowSemiCondensed-Bold.woff2') format('woff2')
+  src: local('')
+  , url('{{ '/fonts/BarlowSemiCondensed-Regular.woff2' | htmlBaseUrl }}/fonts/BarlowSemiCondensed-Bold.woff2') format('woff2')
 }
 
 @keyframes fade-in {
-  from { opacity: 1; }
-  to { opacity: 0.8; }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.8;
+  }
 }
 
 @keyframes fade-out {
-  from { opacity: 0.8; }
-  to { opacity: 1; }
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 :root {
@@ -45,16 +57,19 @@ body {
   position: relative;
   min-height: 100vh;
   margin: 0;
-  font-family: Barlow, sans-serif;
+  font-family: Barlow
+  , sans-serif;
   background-color: var(--white);
   color: var(--black);
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: Barlow-Bold;
 }
 
- h3, strong {
+h3,
+strong {
   font-weight: bold;
 }
 
