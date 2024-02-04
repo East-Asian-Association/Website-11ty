@@ -2,4 +2,4 @@
 permalink: /about/
 ---
 
-<redirect to="{{ '/&client.accept-language;' | append: permalink | htmlBaseUrl }}" type="permanent" />
+{% include "partials/redirect.liquid" %}
