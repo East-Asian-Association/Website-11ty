@@ -49,6 +49,7 @@ header {
   .topnav li {
     display: inline;   
     font-size: 16px;
+    font-family: Barlow-Bold;
     font-weight: bold;
   }
   

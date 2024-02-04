@@ -9,17 +9,18 @@
 @font-face {
   font-family: 'Barlow';
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   src: local(''),
-      url('/fonts/BarlowSemiCondensed-Bold.woff2') format('woff2')
+      url('/fonts/BarlowSemiCondensed-SemiBold.woff2') format('woff2')
 }
 
+
 @font-face {
-  font-family: 'Barlow';
+  font-family: 'Barlow-Bold';
   font-style: normal;
-  font-weight: 200;
+  font-weight: 900;
   src: local(''),
-      url('/fonts/BarlowSemiCondensed-Light.woff2') format('woff2')
+      url('/fonts/BarlowSemiCondensed-Bold.woff2') format('woff2')
 }
 
 @keyframes fade-in {
@@ -44,12 +45,16 @@ body {
   position: relative;
   min-height: 100vh;
   margin: 0;
-  font-family: Barlow;
+  font-family: Barlow, sans-serif;
   background-color: var(--white);
   color: var(--black);
 }
 
-strong {
+h1, h2 {
+  font-family: Barlow-Bold;
+}
+
+ h3, strong {
   font-weight: bold;
 }
 
