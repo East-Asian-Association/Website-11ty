@@ -1,0 +1,9 @@
+---
+pagination:
+  data: collections.post
+  size: 2
+  alias: posts
+permalink: "/events/{{ pagination.pageNumber | plus: 1 }}/"
+---
+
+<redirect to="{{ '/&client.accept-language;' | append: permalink | htmlBaseUrl }}" type="permanent" />
