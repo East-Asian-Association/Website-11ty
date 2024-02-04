@@ -1,8 +1,8 @@
 ---
-title: About
+title: Om EAA 
 layout: layouts/article.liquid
 permalink: /sv/about/
-tags: about 
+tags: about
 sideNavOrder: 1
 topNavOrder: 1
 ---
