@@ -11,7 +11,7 @@
         {%- for item in collections.index -%}
             {% if item.page.lang == page.lang %}
                 <li>
-                    <a class="redOnHover" href={{ item.url }}>
+                    <a href="{{ item.url }}">
                         {{ item.data.title }}
                     </a>
                 </li>
