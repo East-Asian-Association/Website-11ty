@@ -1,6 +1,9 @@
 [
     {
-        "post": "President",
+        "post": {
+            "en": "President",
+            "sv": "Ordförande"
+        },
         "name": "János Kondri",
         "studorgmail": "ordf@eastasian.studorg.liu.se",
         "gmail": "ordf.eaa@gmail.com",
@@ -8,7 +11,10 @@
        
     },
     {
-        "post": "Vice President",
+        "post": {
+            "en": "Vice President",
+            "sv": "Vice-Ordförande"
+        },
         "name": "Jesper Eriksson",
         "studorgmail": "vordf@eastasian.studorg.liu.se",
         "gmail": "vordf.eaa@gmail.com",
@@ -16,7 +22,10 @@
         
     },
     {
-        "post": "Treasurer",
+        "post": {
+            "en": "Treasurer",
+            "sv": "Kassör"
+        },
         "name": "Oskar Savinainen",
         "studorgmail": "kassor@eastasian.studorg.liu.se",
         "gmail": "kassor.eaa@gmail.com",
@@ -24,28 +33,40 @@
         
     },
     {
-        "post": "Secretary & Business",
+        "post": {
+            "en": "Secretary & Business",
+            "sv": "Sekreterare & Näringslivs-ansvarig"
+        },
         "name": "Ebba Silfver",
         "studorgmail": "naringsliv@eastasian.studorg.liu.se",
         "gmail": "naringsliv.eaa@gmail.com",
         "img": "secretary.jpg"        
     },
     {
-        "post": "AMO",
+        "post": {
+            "en": "AMO",
+            "sv": "AMO"
+        },
         "name": "Carl Earles",
         "studorgmail": "amo@eastasian.studorg.liu.se",
         "gmail": "amo.eaa.liu@gmail.com",
         "img": "amo.jpg"
     },
     {
-        "post": "Head of Conversation Corner",
+        "post": {
+            "en": "Head of Conversation Corner",
+            "sv": "CC-ansvarig"
+        },
         "name": "Pongpol Jarudrungchawalit",
         "studorgmail": "cc@eastasian.studorg.liu.se",
         "gmail": "ccansvarig.eaa@gmail.com",
         "img": "cc.jpg"
     },
     {
-        "post": "Head of Event",
+        "post": {
+            "en": "Head of Event",
+            "sv": "Event-ansvarig"
+        },
         "name": "Raman Ahmadi",
         "studorgmail": "event@eastasian.studorg.liu.se",
         "gmail": "eventansvarig.eaa@gmail.com",
@@ -53,19 +74,28 @@
         
     },
     {
-        "post": "General of TEKKEN",
-        "name": "Folke Wickbom",
+        "post": {
+            "en": "General of TEKKEN",
+            "sv": "TEKKEN-General"
+        },
+        "name": "Tilda Ek",
         "studorgmail": "general@eastasian.studorg.liu.se",
         "gmail": "generalen.eaa@gmail.com"
     },
     {
-        "post": "Head of Design",
+        "post": {
+            "en": "Head of Design",
+            "sv": "Tryck"
+        },
         "name": "Linn Jägestedt",
         "studorgmail": "info@eastasian.studorg.liu.se",
         "gmail": "infoansvarig.eaa@gmail.com"
     },
     {
-        "post": "Educational Committee",
+        "post": {
+            "en": "Educational Committee",
+            "sv": "Snordf"
+        },
         "name": "Noah Svedlund Avereyireh",
         "studorgmail": "snordf@eastasian.studorg.liu.se",
         "gmail": "snordf.eaa@gmail.com",
@@ -73,18 +103,23 @@
         
     },
     {
-        "post": "Head of IT",
+        "post": {
+            "en": "Head of IT",
+            "sv": "IT-ansvarig"
+        },
         "name": "Johan Törner",
         "studorgmail": "",
         "gmail": "N/A",
         "img": "it.jpg"
     },
     {
-        "post": "Head of Language Exchange",
-        "name": "Reika Sato",
+        "post": {
+            "en": "Head of Language Exchange",
+            "sv": "Språkansvarig"
+        },
+        "name": "Yuha Togashi",
         "studorgmail": "",
-        "gmail": "utbytes.eaa@gmail.com",
-        "img": "language.jpg"
+        "gmail": "utbytes.eaa@gmail.com"
     }
     
 ]

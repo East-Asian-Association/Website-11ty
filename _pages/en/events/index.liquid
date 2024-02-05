@@ -15,6 +15,7 @@ permalink: "/en/events/{{ pagination.pageNumber | plus: 1 }}/"
   {% for item in posts %}
     <li>
       {{ item.content }}
+      <time>Posted: {{ item.date | date: "%Y-%m-%d" }}</time>
     </li>
   {% endfor %}
 </ul>
@@ -34,7 +35,7 @@ permalink: "/en/events/{{ pagination.pageNumber | plus: 1 }}/"
     Page {{ pagination.pageNumber | plus: 1 }}
   </span>
 
-  {% assign count = posts | size | divided_by: pagination.size %}
+  {% assign count = posts | size | divided_by: pagination.size | minus: 1 %}
 
   {% if pagination.pageNumber < count %}
     <a href="/en/events/{{ pagination.pageNumber | plus: 2 }}">

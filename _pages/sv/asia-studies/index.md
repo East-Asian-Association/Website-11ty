@@ -9,7 +9,7 @@ topNavOrder: 5
 
 ### Vad är Asienkunskap?
 
-Asienkunskap är ett ettårigt basår på Linköpings Universitet med fokus på ett av de asiatiska språken kinesiska eller japanska.
+Asienkunskap är en ettårig utbildning på Linköpings Universitet med fokus på ett av de asiatiska språken kinesiska eller japanska.
 
 Utbildningens mål är att ge studenten en avancerade språkfärdigheter i japanska eller kinesiska samt övergripande kunskap om de sydostasiatiska ländernas historia och samhälle.
 

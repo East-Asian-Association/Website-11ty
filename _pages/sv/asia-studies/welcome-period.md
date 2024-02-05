@@ -10,7 +10,7 @@ sideNavOrder: 3
 
 TEKKEN är det eminenta fadderiet för Asienkunskap vid Linköpings universitet.
 
-TEKKEN 22/23 styrs av Linus Lundblad och kan nås på:  
+TEKKEN 24/25 styrs av Tilda Ek och kan nås på:  
 generalen.eaa@gmail.com.
 
 TEKKEN's äventyr går att följa på [Facebook](https://www.facebook.com/FadderietTekken/) och [Instagram](https://www.instagram.com/fadderiet_tekken/)!
@@ -23,7 +23,7 @@ För de som studerar japanska innebär det att lära sig de två fonetiska alfab
 
 Förslagsvis bör ni ta er tid under sommaren och lära er så mycket som möjligt innan ni börjar, eftersom de första veckorna kommer att vara intensiva!
 
-Efter de första veckorna så kommer ordinarie kurs med lärare Mats Andersson att börja.
+Efter de första veckorna så kommer ordinarie kurs med vår fantastiska lärare Mats Andersson att börja.
 
 ### Boende
 
@@ -49,8 +49,8 @@ Här kommern en lista med bra hemsidor man kan använda för att hitta bostad, t
 
 ### Småttingordlista
 
-*   Småtting – Blivande student på basår
-*   Småtting-P – Perioden då ni är småttingar, alltså från uppropet fram tills finsittningen!
+*   Småtting – Blivande student på asienkunskap
+*   Småtting-P –  Mottagningsperioden på Asienkunskap
 *   Nollan – Blivande student på ordinarie program
 *   Gyckel – Studentikost uppträdande som oftast är lika roligt som det är iöronfallande!
 *   C-huset – Det hus där ni kommer vara mest under basåret, huserar U-korridoren.
@@ -60,11 +60,10 @@ Här kommern en lista med bra hemsidor man kan använda för att hitta bostad, t
 *   LiTH – Tekniska Högskolan vid Linköpings Universitet (Tekniska fakulteten på LiU)
 *   I – Industriell Ekonomi på LiTH
 *   Y – Teknisk Fysik och Elektroteknik på LiTH
-*   Ii – Industriell Ekonomi – Internationell på LiTH
-*   Yi – Teknisk Fysik och Elektroteknik – Internationell på LiTH
 *   D, M, TBi etc. – Övriga program på LiTH, ni lär er med tiden…
+*   Kårallen - En byggnad brevid c-huset där det hålls diverse fester och pubbar
 *   KK – Förkortning för Kårhuset Kollektivet, en nattklubb/studentpub (tidigare kallad NH)
-*   Platå – en annan nattklubb bredvid KK, fest!
 *   Flamman (Pub&Disco) – en studentdriven nattklubb i källaren till studentboendet Flamman
+*   Karaoke – Östasiatiska Föreningens nationalsport
 *   Oppasser – “Batman” på nederländska
 *   Kavaj – “Gulligt” på japanska
