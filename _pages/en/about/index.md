@@ -1,5 +1,6 @@
 ---
 title: About
+description: An introduction to the East Asian Association at Linköping University
 layout: layouts/article.liquid
 permalink: /en/about/
 tags: about 

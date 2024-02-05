@@ -1,5 +1,6 @@
 ---
 title: International Students
+description: A guide to Linköping for international students
 layout: layouts/article.liquid
 permalink: /en/international-students/
 tags: international-students 

@@ -1,5 +1,6 @@
 ---
 title: Pubs
+description: Student Pubs with EAA
 layout: layouts/article.liquid
 permalink: /en/events/pubs.html
 tags: events

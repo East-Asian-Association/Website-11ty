@@ -1,5 +1,6 @@
 ---
 title: Home missioning
+description: 
 layout: layouts/article.liquid
 permalink: /en/asia-studies/home-missioning.html
 tags: asia-studies

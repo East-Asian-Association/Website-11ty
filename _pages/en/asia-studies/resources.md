@@ -1,5 +1,6 @@
 ---
 title: Resources
+description: Study resources for those taking Asia Studies
 layout: layouts/article.liquid
 permalink: /en/asia-studies/resources.html
 tags: asia-studies

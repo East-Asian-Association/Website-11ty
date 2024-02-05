@@ -1,5 +1,6 @@
 ---
 title: Conversation Corner
+description: Information about Conversation Corner
 layout: layouts/article.liquid
 permalink: /en/events/conversation-corner.html
 tags: events

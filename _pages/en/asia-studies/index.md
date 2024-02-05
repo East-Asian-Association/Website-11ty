@@ -1,5 +1,6 @@
 ---
 title: Asia Studies
+description: Asia Studies at Linköpings university
 layout: layouts/article.liquid
 permalink: /en/asia-studies/
 tags: asia-studies

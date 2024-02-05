@@ -1,5 +1,6 @@
 ---
 title: Dining Events
+description: Student dining events with EAA
 layout: layouts/article.liquid
 permalink: /en/events/dining-events.html
 tags: events

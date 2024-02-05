@@ -1,5 +1,6 @@
 ---
 title: Membership
+description: Information about becoming a member
 layout: layouts/article.liquid
 permalink: /en/about/membership.html
 tags: about

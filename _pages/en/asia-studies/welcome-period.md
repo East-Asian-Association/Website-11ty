@@ -1,5 +1,6 @@
 ---
 title: Welcoming period
+description: Information about the welcoming period for Asia Studies
 layout: layouts/article.liquid
 permalink: /en/asia-studies/welcome-period.html
 tags: asia-studies

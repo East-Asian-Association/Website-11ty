@@ -1,5 +1,6 @@
 ---
 title: Admission
+description: Information for thos admitted to Asia Studies
 layout: layouts/article.liquid
 permalink: /en/asia-studies/admission.html
 tags: asia-studies
