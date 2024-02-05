@@ -24,7 +24,11 @@
   <set-cookie
     name="lastLang"
     value="{{ page.lang }}"
-    persistent />
+    year="5"
+    {% comment %}
+    domain="https://eaaliu.se"
+    {% endcomment %}
+    path="{{  "/" | htmlBaseUrl }}" />
 
   <body>
     <header class="box-shadow">
