@@ -1,0 +1,26 @@
+[ 
+    {
+        "oldUrl": "/about/",
+        "newUrl": "/en/about/"
+    },
+    {
+        "oldUrl": "/contact/",
+        "newUrl": "/sv/contact/"
+    },
+    {
+        "oldUrl": "/events/",
+        "newUrl": "/en/events/1/"
+    },
+    {
+        "oldUrl": "/sponsors/",
+        "newUrl": "/en/sponsors/"
+    },
+    {
+        "oldUrl": "/asienkunskap/",
+        "newUrl": "/sv/asia-studies/"
+    },
+    {
+        "oldUrl": "/international/",
+        "newUrl": "/en/international-students/"
+    }
+]

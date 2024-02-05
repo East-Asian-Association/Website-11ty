@@ -1,13 +1,10 @@
 ---
-pagination:
-  data: collections.en
-  size: 1
-  alias: collection
-permalink: /{{ collection.url | removeLang }}
+permalink: /
+eleventyExcludeFromCollections: true
 ---
 
 {% for lang in site.supportedLanguages %}
-  {% assign URL = "/" | append: lang | append: collection.url | removeLang %}
+  {% assign URL = "/" | append: lang %}
   {%- if forloop.first -%}
     <if cookie="{{ 'lastLang is ' | append: lang }}">
       <redirect to="{{ URL | htmlBaseUrl }}" type="permanent" />
@@ -20,13 +17,13 @@ permalink: /{{ collection.url | removeLang }}
 {%- endfor -%}
 
 {%- for lang in site.supportedLanguages -%}
-  {% assign URL = "/" | append: lang | append: collection.url | removeLang %}
+  {% assign URL = "/" | append: lang %}
   <elseif variable="{{ 'client.accept-language is ' | append: lang }}">
     <redirect to="{{ URL | htmlBaseUrl }}" type="permanent" />
   </elseif>
 {%- endfor -%}
 
-{% assign defaultURL = "/en" | append: collection.url | removeLang %}
+{% assign defaultURL = "/en" %}
 <else>
   <redirect to="{{ defaultURL | htmlBaseUrl }}" type="permanent" />
 </else>

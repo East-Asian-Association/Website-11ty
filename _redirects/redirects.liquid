@@ -1,0 +1,10 @@
+---
+pagination:
+  data: redirects
+  size: 1
+  alias: redirect
+permalink: "{{ redirect.oldUrl | htmlBaseUrl }}"
+eleventyExcludeFromCollections: true
+---
+
+<redirect to="{{ redirect.newUrl | htmlBaseUrl }}" type="found" />
