@@ -3,19 +3,20 @@
 </if>
 
 <else>
-
+  {% assign defaultURL = "/en" | append: permalink | htmlBaseUrl %}
   {%- for lang in site.supportedLanguages -%}
+    {% assign URL = "/" | append: lang | append: permalink %}
     {%- if forloop.first -%}
       <if variable="{{ 'client.accept-language is ' | append: lang }}">
-        <redirect to="{{ lang | append: permalink | htmlBaseUrl }}" type="permanent" />
+        <redirect to="{{ URL | htmlBaseUrl }}" type="permanent" />
       </if>
     {%- else -%}
       <elseif variable="{{ 'client.accept-language is ' | append: lang }}">
-        <redirect to="{{ lang | append: permalink | htmlBaseUrl }}" type="permanent" />
+        <redirect to="{{ URL | htmlBaseUrl }}" type="permanent" />
       </elseif>
     {%- endif -%}
   {%- endfor -%}
   <else>
-    <redirect to="{{ 'en' | append: permalink | htmlBaseUrl }}" type="permanent" />
+    <redirect to="{{ defaultURL }}" type="permanent" />
   </else>
 </else>
