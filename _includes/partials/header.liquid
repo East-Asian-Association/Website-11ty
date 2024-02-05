@@ -23,7 +23,7 @@
         {% assign links = page.url | locale_links %}
         {%- for link in links -%}
             <li>
-                <a class="redOnHover" href={{link.url}} lang={{link.lang}} hreflang={{link.lang}}>
+                <a href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">
                     {{ link.lang }}
                 </a>
             </li>
