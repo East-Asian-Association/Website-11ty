@@ -13,7 +13,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.ico");
 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: "en", 
     
@@ -25,9 +25,11 @@ module.exports = function(eleventyConfig) {
     errorMode: "strict", // throw an error if content is missing at /en/slug
   });
 
-  eleventyConfig.addPlugin(EleventyRenderPlugin);
-  
   /* Custom sorted tag-collections */
+
+  eleventyConfig.addCollection("all", function(collectionApi) {
+    return collectionApi.getAllSorted( ).filter((item) => item.data.tags != "post");
+  });
 
   eleventyConfig.addCollection("about", function(collectionApi) {
     return collectionApi.getFilteredByTag("about").filter((item) => "sideNavOrder" in item.data).sort((a, b) => a.data.sideNavOrder - b.data.sideNavOrder);

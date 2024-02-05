@@ -4,6 +4,7 @@ pagination:
   size: 2
   alias: posts
 permalink: "/events/{{ pagination.pageNumber | plus: 1 }}/"
+eleventyExcludeFromCollections: true
 ---
 
 {% include "partials/redirect.liquid" %}

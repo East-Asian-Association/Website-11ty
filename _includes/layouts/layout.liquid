@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="/css/{{ css }}" />
 
   </head>
+
+  <set-cookie path="lastLang" value="{{ page.lang }} persistent">
+  
   <body>
     <header class="box-shadow">
       {% include "partials/header.liquid" %}
