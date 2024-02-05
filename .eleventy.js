@@ -11,7 +11,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("svg");
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("favicon.ico");
-
+  
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
@@ -24,11 +24,23 @@ module.exports = function(eleventyConfig) {
 
     errorMode: "strict", // throw an error if content is missing at /en/slug
   });
+  
+  eleventyConfig.addFilter("removeLang", function(value) { 
+      return value.slice(3);
+  });
 
   /* Custom sorted tag-collections */
 
   eleventyConfig.addCollection("all", function(collectionApi) {
-    return collectionApi.getAllSorted( ).filter((item) => item.data.tags != "post");
+    return collectionApi.getAllSorted().filter((item) => item.data.tags != "post");
+  });
+
+  eleventyConfig.addCollection("en", function(collectionApi) {
+    return collectionApi.getAll().filter((item) => item.url.toString().includes("/en"));
+  });
+
+  eleventyConfig.addCollection("index", function(collectionApi) {
+    return collectionApi.getAll().filter((item) => "topNavOrder" in item.data).sort((a, b) => a.data.topNavOrder - b.data.topNavOrder);
   });
 
   eleventyConfig.addCollection("about", function(collectionApi) {
@@ -45,8 +57,5 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.addCollection("international-students", function(collectionApi) {
     return collectionApi.getFilteredByTag("international-students").filter((item) => "sideNavOrder" in item.data).sort((a, b) => a.data.sideNavOrder - b.data.sideNavOrder);
-  });
-  eleventyConfig.addCollection("index", function(collectionApi) {
-    return collectionApi.getAll().filter((item) => "topNavOrder" in item.data).sort((a, b) => a.data.topNavOrder - b.data.topNavOrder);
   });
 };

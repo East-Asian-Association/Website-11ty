@@ -1,5 +1,13 @@
-{%- for lang in site.supportedLanguages -%}
-  {% assign URL = "/" | append: lang | append: permalink %}
+---
+pagination:
+  data: collections.en
+  size: 1
+  alias: collection
+permalink: /{{ collection.url | removeLang }}
+---
+
+{% for lang in site.supportedLanguages %}
+  {% assign URL = "/" | append: lang | append: collection.url | removeLang %}
   {%- if forloop.first -%}
     <if cookie="{{ 'lastLang is ' | append: lang }}">
       <redirect to="{{ URL | htmlBaseUrl }}" type="permanent" />
@@ -12,13 +20,13 @@
 {%- endfor -%}
 
 {%- for lang in site.supportedLanguages -%}
-  {% assign URL = "/" | append: lang | append: permalink %}
+  {% assign URL = "/" | append: lang | append: collection.url | removeLang %}
   <elseif variable="{{ 'client.accept-language is ' | append: lang }}">
     <redirect to="{{ URL | htmlBaseUrl }}" type="permanent" />
   </elseif>
 {%- endfor -%}
 
-{% assign defaultURL = "/en" | append: permalink | htmlBaseUrl %}
+{% assign defaultURL = "/en" | append: collection.url | removeLang %}
 <else>
-  <redirect to="{{ defaultURL }}" type="permanent" />
+  <redirect to="{{ defaultURL | htmlBaseUrl }}" type="permanent" />
 </else>
