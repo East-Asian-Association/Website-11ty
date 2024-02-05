@@ -1,22 +1,30 @@
-<if cookie="lastLang">
-  <redirect to="{{ 'cookie.lastLang' | append: permalink | htmlBaseUrl }}" type="permanent" />
-</if>
+{%- for lang in site.supportedLanguages -%}
+  {% assign URL = "/" | append: lang | append: permalink %}
+  {%- if forloop.first -%}
+    <if cookie="{{ 'lastLang is ' | append: lang }}">
+      <redirect to="{{ URL | htmlBaseUrl }}" type="permanent" />
+    </if>
+  {%- else -%}
+    <if cookie="{{ 'lastLang is ' | append: lang }}">
+      <redirect to="{{ URL | htmlBaseUrl }}" type="permanent" />
+    </elseif>
+  {%- endif -%}
+{%- endfor -%}
 
+{%- for lang in site.supportedLanguages -%}
+  {% assign URL = "/" | append: lang | append: permalink %}
+  {%- if forloop.first -%}
+    <if variable="{{ 'client.accept-language is ' | append: lang }}">
+      <redirect to="{{ URL | htmlBaseUrl }}" type="permanent" />
+    </if>
+  {%- else -%}
+    <elseif variable="{{ 'client.accept-language is ' | append: lang }}">
+      <redirect to="{{ URL | htmlBaseUrl }}" type="permanent" />
+    </elseif>
+  {%- endif -%}
+{%- endfor -%}
+
+{% assign defaultURL = "/en" | append: permalink | htmlBaseUrl %}
 <else>
-  {% assign defaultURL = "/en" | append: permalink | htmlBaseUrl %}
-  {%- for lang in site.supportedLanguages -%}
-    {% assign URL = "/" | append: lang | append: permalink %}
-    {%- if forloop.first -%}
-      <if variable="{{ 'client.accept-language is ' | append: lang }}">
-        <redirect to="{{ URL | htmlBaseUrl }}" type="permanent" />
-      </if>
-    {%- else -%}
-      <elseif variable="{{ 'client.accept-language is ' | append: lang }}">
-        <redirect to="{{ URL | htmlBaseUrl }}" type="permanent" />
-      </elseif>
-    {%- endif -%}
-  {%- endfor -%}
-  <else>
-    <redirect to="{{ defaultURL }}" type="permanent" />
-  </else>
+  <redirect to="{{ defaultURL }}" type="permanent" />
 </else>
