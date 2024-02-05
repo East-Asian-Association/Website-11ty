@@ -4,6 +4,9 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 module.exports = function(eleventyConfig) {
 
+  eleventyConfig.ignores.add("README.md");
+  eleventyConfig.ignores.add("_pages/ja");
+
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("svg");
   eleventyConfig.addPassthroughCopy("img");
