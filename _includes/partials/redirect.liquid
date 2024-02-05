@@ -1,16 +1,16 @@
 <set variable="var.lang">&client.accept-language;</set>
 
-{% for lang in supportedLanguages %}
-  {% if first %}
-    <if variable=" {{ 'var.lang is ' | append: lang }}">
+{%- for lang in supportedLanguages -%}
+  {%- if forloop.first -%}
+    <if variable=" {{ '&client.accept-language; is ' | append: lang }}">
       <redirect to="{{ lang | append: permalink | htmlBaseUrl }}" type="permanent" />
     </if>
-  {% else %}
-    <elseif variable=" {{ 'var.lang is ' | append: lang }}">
+  {%- else -%}
+    <elseif variable=" {{ '&client.accept-language; is ' | append: lang }}">
       <redirect to="{{ lang | append: permalink | htmlBaseUrl }}" type="permanent" />
     </elseif>
-  {% endif %}
-{% endfor %}
+  {%- endif -%}
+{%- endfor -%}
 <else>
   <redirect to="{{ 'en' | append: permalink | htmlBaseUrl }}" type="permanent" />
 </else>
