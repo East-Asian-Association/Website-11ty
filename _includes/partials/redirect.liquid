@@ -1,5 +1,5 @@
-<if variable="cookie.lastLang">
-  <redirect to="{{ 'cookie.lastLang' | append: permalink | htmlBaseUrl }}" type="permanent" />
+<if cookie="lastLang">
+  <redirect to="{{ '$cookie.lastLang;' | append: permalink | htmlBaseUrl }}" type="permanent" />
 </if>
 
 <else>
