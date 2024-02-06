@@ -22,5 +22,3 @@ jobs:
           strip_components: 1
           target: /lysator/www/roxen/inhysningar/eastasian/
           tar_tmp_path: ~/tmp/
-          overwrite: true
-
