@@ -3,6 +3,11 @@ permalink: /
 eleventyExcludeFromCollections: true
 ---
 
+{% comment %}
+   Redirects from root to a language directory based on either cookies or the accept-language header
+   using RAXML on Roxen web server https://docs.roxen.com/roxen/6.1/web_developer_manual/index.xml
+{% endcomment %}
+
 {% for lang in site.supportedLanguages %}
   {% assign URL = "/" | append: lang %}
   {%- if forloop.first -%}
