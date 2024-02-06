@@ -18,7 +18,6 @@ jobs:
           username: ${{ secrets.LYSATOR_USERNAME }}
           password: ${{ secrets.LYSATOR_PASSWORD }}
           port: ${{ secrets.LYSATOR_PORT }}
-          fingerprint: ${{ secrets.LYSATOR_FINGERPRINT }}
           source: "_site/*"
           target: /lysator/www/roxen/eastasian/
           tar_tmp_path: ~/tmp/
