@@ -1,0 +1,23 @@
+name: Lysator Continous Deployment
+on:
+  push:
+    branches: [master]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with: 
+          node-version: 21
+      - run: npm ci
+      - run: npx @11ty/eleventy
+      - uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.LYSATOR_HOST_URL }}
+          username: ${{ secrets.LYSATOR_USERNAME }}
+          password: ${{ secrets.LYSATOR_PASSWORD }}
+          port: ${{ secrets.LYSATOR_PORT }}
+          source: "_site/*"
+          target: /lysator/www/roxen/eastasian/
+
