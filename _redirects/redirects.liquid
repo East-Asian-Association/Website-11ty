@@ -7,4 +7,9 @@ permalink: "{{ redirect.oldUrl }}"
 eleventyExcludeFromCollections: true
 ---
 
-<redirect to="{{ redirect.newUrl | htmlBaseUrl }}" type="found" />
+{% comment %}
+   Redirects from links on the old website to links on the new site
+   using RAXML on Roxen web server https://docs.roxen.com/roxen/6.1/web_developer_manual/index.xml
+{% endcomment %}
+
+<redirect to="{{ redirect.newUrl | htmlBaseUrl }}" type="permanent" />
