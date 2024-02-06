@@ -19,6 +19,7 @@ jobs:
           password: ${{ secrets.LYSATOR_PASSWORD }}
           port: ${{ secrets.LYSATOR_PORT }}
           source: "_site/*"
+          strip_components: 1
           target: /lysator/www/roxen/eastasian/
           tar_tmp_path: ~/tmp/
           overwrite: true
