@@ -12,9 +12,16 @@ jobs:
           node-version: 21
       - run: npm i
       - run: npx @11ty/eleventy
+      - uses: appleboy/ssh-action@v1.0.3
+        with:
+            host: ${{ secrets.LYSATOR_HOST }}
+            username: ${{ secrets.LYSATOR_USERNAME }}
+            password: ${{ secrets.LYSATOR_PASSWORD }}
+            port: ${{ secrets.LYSATOR_PORT }}
+            script: rm -r /lysator/www/roxen/inhysningar/eastasian/*
       - uses: appleboy/scp-action@v0.1.7
         with:
-          host: ${{ secrets.LYSATOR_HOST_URL }}
+          host: ${{ secrets.LYSATOR_HOST }}
           username: ${{ secrets.LYSATOR_USERNAME }}
           password: ${{ secrets.LYSATOR_PASSWORD }}
           port: ${{ secrets.LYSATOR_PORT }}
@@ -22,3 +29,10 @@ jobs:
           strip_components: 1
           target: /lysator/www/roxen/inhysningar/eastasian/
           tar_tmp_path: ~/tmp/
+      - uses: appleboy/ssh-action@v1.0.3
+        with:
+            host: ${{ secrets.LYSATOR_HOST }}
+            username: ${{ secrets.LYSATOR_USERNAME }}
+            password: ${{ secrets.LYSATOR_PASSWORD }}
+            port: ${{ secrets.LYSATOR_PORT }}
+            script: chmod -R +x /lysator/www/roxen/inhysningar/eastasian/*
