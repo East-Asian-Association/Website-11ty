@@ -10,7 +10,7 @@ jobs:
       - uses: actions/setup-node@master
         with: 
           node-version: 21
-      - run: npm ci
+      - run: npm i
       - run: npx @11ty/eleventy
       - uses: appleboy/scp-action@v0.1.7
         with:
