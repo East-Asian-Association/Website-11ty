@@ -1,19 +1,24 @@
 const { EleventyI18nPlugin } = require("@11ty/eleventy");
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 module.exports = function(eleventyConfig) {
 
+  // Ignore theese files/directories when generating output
   eleventyConfig.ignores.add("README.md");
   eleventyConfig.ignores.add("_pages/ja");
-
+ 
+  // Copy theese files/directories to output 
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("svg");
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("favicon.ico");
   
+  // Allows the website to be served to a sub directory.
+  // Define the option --pathprefix xxx when building and 
+  // use the htmlBaseUrl filter in liquid to transform urls 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-  eleventyConfig.addPlugin(EleventyRenderPlugin);
+  
+  // Adds support for localized links with liquid filters
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: "en", 
     
@@ -25,24 +30,14 @@ module.exports = function(eleventyConfig) {
     errorMode: "strict", // throw an error if content is missing at /en/slug
   });
   
-  eleventyConfig.addFilter("removeLang", function(value) { 
-      return value.slice(3);
-  });
-
-  /* Custom sorted tag-collections */
+  // Custom sorted tag-collections 
 
   eleventyConfig.addCollection("all", function(collectionApi) {
     return collectionApi.getAllSorted().filter((item) => item.data.tags != "post");
   });
-
-  eleventyConfig.addCollection("en", function(collectionApi) {
-    return collectionApi.getAll().filter((item) => item.url.toString().includes("/en"));
-  });
-
   eleventyConfig.addCollection("index", function(collectionApi) {
     return collectionApi.getAll().filter((item) => "topNavOrder" in item.data).sort((a, b) => a.data.topNavOrder - b.data.topNavOrder);
   });
-
   eleventyConfig.addCollection("about", function(collectionApi) {
     return collectionApi.getFilteredByTag("about").filter((item) => "sideNavOrder" in item.data).sort((a, b) => a.data.sideNavOrder - b.data.sideNavOrder);
   });
