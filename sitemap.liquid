@@ -7,8 +7,10 @@ eleventyExcludeFromCollections: true
   {% for page in collections.all %}
     <url>
       <loc>{{ site.url }}{{ page.url | url }}</loc>
-      <lastmod>{{ page.date }}</lastmod>
-      <changefreq>{{ page.data.changeFreq }}</changefreq>
+      <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
+      {%- if page.data.changeFreq %}
+        <changefreq>{{ page.data.changeFreq }}</changefreq>
+      {%- endif %}
     </url>
   {% endfor %}
 </urlset>
