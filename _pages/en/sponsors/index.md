@@ -1,5 +1,6 @@
 ---
 title: Sponsors
+description: Why you should sponsor EAA
 layout: layouts/article.liquid
 permalink: /en/sponsors/
 tags: sponors 

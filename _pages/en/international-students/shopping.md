@@ -1,5 +1,6 @@
 ---
 title: Shopping
+description: How to go about shopping in linköping
 layout: layouts/article.liquid
 permalink: /en/international-students/shopping.html
 tags: international-students

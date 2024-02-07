@@ -1,6 +1,6 @@
 ---
 title: Conversation Corner
-description: Information about Conversation Corner
+description: The East Asian Language Café at Linköping University
 layout: layouts/article.liquid
 permalink: /en/events/conversation-corner.html
 tags: events

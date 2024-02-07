@@ -1,5 +1,6 @@
 ---
 title: Studying Swedish
+description: A guide to studying Swedish
 layout: layouts/article.liquid
 permalink: /en/international-students/studying-swedish.html
 tags: international-students

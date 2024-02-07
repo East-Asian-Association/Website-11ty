@@ -1,5 +1,6 @@
 ---
 title: Traveling
+description: A traveling guide for Linköping
 layout: layouts/article.liquid
 permalink: /en/international-students/travel.html
 tags: international-students

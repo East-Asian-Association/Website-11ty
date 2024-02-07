@@ -1,5 +1,6 @@
 ---
 title: Tickets
+description:
 layout: layouts/article.liquid
 permalink: /en/international-students/tickets.html
 tags: international-students
