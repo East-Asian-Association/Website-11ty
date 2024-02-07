@@ -1,5 +1,6 @@
 ---
 title: Tekken
+description: Fadderiet för Asienkunskap
 layout: layouts/article.liquid
 permalink: /sv/about/tekken.html
 tags: about

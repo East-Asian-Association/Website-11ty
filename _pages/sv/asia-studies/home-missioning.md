@@ -1,5 +1,6 @@
 ---
 title: hemmissionering
+description:
 layout: layouts/article.liquid
 permalink: /sv/asia-studies/home-missioning.html
 tags: asia-studies
