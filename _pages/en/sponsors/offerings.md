@@ -1,5 +1,6 @@
 ---
 title: Offerings
+description: How to sponsors EAA
 layout: layouts/article.liquid
 permalink: /en/sponsors/offerings.html
 tags: sponors
