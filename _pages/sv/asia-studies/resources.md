@@ -1,5 +1,6 @@
 ---
 title: Resurser
+description: Studieresurser för dig som pluggar Asienkunskap
 layout: layouts/article.liquid
 permalink: /sv/asia-studies/resources.html
 tags: asia-studies
