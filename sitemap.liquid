@@ -10,6 +10,8 @@ eleventyExcludeFromCollections: true
       <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
       {%- if page.data.changeFreq %}
         <changefreq>{{ page.data.changeFreq }}</changefreq>
+      {%- else %}
+        <changefreq>monthly</changefreq>
       {%- endif %}
     </url>
   {% endfor %}
