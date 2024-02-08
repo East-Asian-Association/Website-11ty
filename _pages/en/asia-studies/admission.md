@@ -1,6 +1,6 @@
 ---
 title: Admission
-description: Information for those admitted to Asia Studies
+description: Information for those admitted to Asian Studies
 layout: layouts/article.liquid
 permalink: /en/asia-studies/admission.html
 tags: asia-studies
@@ -9,7 +9,7 @@ sideNavOrder: 2
 
 ### Dear student,
 
-We at the East Asian Association would like to welcome you to Linköping University, LiU, and especially to your year in Asia Studies. Whether you have chosen Chinese or Japanese, we hope that you will have a rewarding study period.
+We at the East Asian Association would like to welcome you to Linköping University, LiU, and especially to your year in Asian Studies. Whether you have chosen Chinese or Japanese, we hope that you will have a rewarding study period.
 
 In order to offer the best possible reception for the new students, we have a welcoming group called TEKKEN, whose job is to plan a variety of fun events in order to introduce you to student life in Linköping. You should therefore turn to TEKKEN if you have any questions regarding the reception itself.
 
