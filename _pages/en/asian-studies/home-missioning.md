@@ -2,8 +2,8 @@
 title: Home missioning
 description: 
 layout: layouts/article.liquid
-permalink: /en/asia-studies/home-missioning.html
-tags: asia-studies
+permalink: /en/asian-studies/home-missioning.html
+tags: asian-studies
 sideNavOrder: 6
 ---
 

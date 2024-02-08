@@ -2,8 +2,8 @@
 title: Resources
 description: Study resources for those taking Asian Studies
 layout: layouts/article.liquid
-permalink: /en/asia-studies/resources.html
-tags: asia-studies
+permalink: /en/asian-studies/resources.html
+tags: asian-studies
 sideNavOrder: 4
 ---
 

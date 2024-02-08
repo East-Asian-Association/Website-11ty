@@ -2,8 +2,8 @@
 title: Asienkunskap
 layout: layouts/article.liquid
 description: Asienkunskap på Linköpings university
-permalink: /sv/asia-studies/
-tags: asia-studies 
+permalink: /sv/asian-studies/
+tags: asian-studies 
 sideNavOrder: 1
 topNavOrder: 5
 --- 

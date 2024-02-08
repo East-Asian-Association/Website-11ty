@@ -2,8 +2,8 @@
 title: Antagen
 layout: layouts/article.liquid
 description: Information för dig som är antagen på Asienkunskap
-permalink: /sv/asia-studies/admission.html
-tags: asia-studies
+permalink: /sv/asian-studies/admission.html
+tags: asian-studies
 sideNavOrder: 2
 ---
 

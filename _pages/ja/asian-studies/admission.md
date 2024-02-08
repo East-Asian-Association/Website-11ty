@@ -1,7 +1,7 @@
 ---
 title: Antagen
 layout: layouts/article.liquid
-permalink: /ja/asia-studies/admission.html
-tags: asia-studies
+permalink: /ja/asian-studies/admission.html
+tags: asian-studies
 sideNavOrder: 2
 ---

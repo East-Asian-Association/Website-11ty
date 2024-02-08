@@ -2,8 +2,8 @@
 title: Asian Studies
 description: Asian Studies at Linköpings university
 layout: layouts/article.liquid
-permalink: /en/asia-studies/
-tags: asia-studies
+permalink: /en/asian-studies/
+tags: asian-studies
 sideNavOrder: 1
 topNavOrder: 5
 --- 

@@ -2,8 +2,8 @@
 title: Småtting-p
 description: Mottagningsperioden för Asienkunskap
 layout: layouts/article.liquid
-permalink: /sv/asia-studies/welcome-period.html
-tags: asia-studies
+permalink: /sv/asian-studies/welcome-period.html
+tags: asian-studies
 sideNavOrder: 3
 ---
 
