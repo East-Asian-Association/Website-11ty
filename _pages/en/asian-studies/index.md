@@ -1,9 +1,9 @@
 ---
-title: Asia Studies
-description: Asia Studies at Linköpings university
+title: Asian Studies
+description: Asian Studies at Linköpings university
 layout: layouts/article.liquid
-permalink: /en/asia-studies/
-tags: asia-studies
+permalink: /en/asian-studies/
+tags: asian-studies
 sideNavOrder: 1
 topNavOrder: 5
 --- 
@@ -16,5 +16,5 @@ The aim of the program is to provide students with advanced language skills in J
 
 Want to know more? Read more about Asian Studies on the Liu website:
 
-**[Asienkunskap - inriktning Kina](https://liu.se/utbildning/program/6asik)**  
-**[Asienkunskap - inriktning Japan](https://liu.se/utbildning/program/6asij)**
+**[Asienkunskap - inriktning Kina](https://liu.se/en/education/program/6asik)**  
+**[Asienkunskap - inriktning Japan](https://liu.se/en/education/program/6asij)**

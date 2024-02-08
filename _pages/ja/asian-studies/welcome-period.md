@@ -1,7 +1,7 @@
 ---
 title: Småtting-p
 layout: layouts/article.liquid
-permalink: /ja/asia-studies/welcome-period.html
-tags: asia-studies
+permalink: /ja/asian-studies/welcome-period.html
+tags: asian-studies
 sideNavOrder: 3
 ---

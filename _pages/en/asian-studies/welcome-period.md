@@ -1,15 +1,15 @@
 ---
 title: Welcoming period
-description: Information about the welcoming period for Asia Studies
+description: Information about the welcoming period for Asian Studies
 layout: layouts/article.liquid
-permalink: /en/asia-studies/welcome-period.html
-tags: asia-studies
+permalink: /en/asian-studies/welcome-period.html
+tags: asian-studies
 sideNavOrder: 3
 ---
 
 ### TEKKEN
 
-TEKKEN is the eminent welcoming group for Asia Studies at Linköping University.
+TEKKEN is the eminent welcoming group for Asian Studies at Linköping University.
 
 TEKKEN 24/25 is directed by Tilda Ek and can be reached at:  
 generalen.eaa@gmail.com.
