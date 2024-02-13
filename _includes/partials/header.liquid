@@ -17,9 +17,6 @@
                 </li>
             {% endif %}
         {%- endfor -%}
-    </ul>
-    
-    <ul id="langs" class="black white-bg">
         {% assign links = page.url | locale_links %}
         {%- for link in links -%}
             <li>
