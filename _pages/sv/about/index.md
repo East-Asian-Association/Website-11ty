@@ -14,7 +14,7 @@ topNavOrder: 1
 
 Idag har föreningen cirka **200 medlmmar** från hela världen, men primärt från Sverige, Japan, Kina och Korea.
 
-Varje år arrangerar vi flera olika evenmang där vissa är tradionella studentevenemang medan andra är fokuserade på spårk och kulturellt utbyte. Vi uppmuntrar alla till att delta och ha så roligt som möjligt! För den intresserade finns mer information under [Events](/events).
+Varje år arrangerar vi flera olika evenmang där vissa är tradionella studentevenemang medan andra är fokuserade på spårk och kulturellt utbyte. Vi uppmuntrar alla till att delta och ha så roligt som möjligt! För den intresserade finns mer information under [Events](../events/1.html).
 
 ### Vårt mål
 

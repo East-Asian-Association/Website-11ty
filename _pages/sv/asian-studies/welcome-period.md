@@ -1,5 +1,5 @@
 ---
-title: Småtting-p
+title: Mottagningsguiden
 description: Mottagningsperioden för Asienkunskap
 layout: layouts/article.liquid
 permalink: /sv/asian-studies/welcome-period.html

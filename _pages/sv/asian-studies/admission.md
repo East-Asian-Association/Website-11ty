@@ -13,7 +13,7 @@ Vi på Östasiatiska sektionen vill hälsa dig välkommen till Linköpings unive
 
 För att kunna erbjuda en så bra mottagning som möjligt för de nya studenterna har vi ett fadderi vid namn TEKKEN, vars uppgift är att planera en mängd roliga event för att introducera er till studentlivet är i Linköping. Det är alltså till TEKKEN du ska vända dig om du har några frågor angående själva mottagningen.
 
-Ambitionen med mottagningsguiden på den här sidan är att underlätta övergångsprocessen och besvara några av de frågor nyblivna studenter har. Vi har därför försökt samla den information vi tror är mest relevant, så som scheman, tips för bostadsletande, kontaktpersoner, nyttiga länkar med mera. Saknas information ska du inte tveka att höra av dig.
+Ambitionen med [mottagningsguiden](../asian-studies/welcome-period.html) på den här sidan är att underlätta övergångsprocessen och besvara några av de frågor nyblivna studenter har. Vi har därför försökt samla den information vi tror är mest relevant, så som scheman, tips för bostadsletande, kontaktpersoner, nyttiga länkar med mera. Saknas information ska du inte tveka att höra av dig.
 
 Vi hoppas att du kommer att trivas hos oss och vi från Östasiatiska sektionen ser fram emot att träffa er i augusti!
 

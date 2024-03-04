@@ -10,7 +10,7 @@ pagination:
   data: collections.post
   size: 2
   alias: posts
-permalink: "/sv/events/{{ pagination.pageNumber | plus: 1 }}/"
+permalink: "/sv/events/{{ pagination.pageNumber | plus: 1 }}.html"
 ---
 
 <ul class="post-list">
@@ -40,7 +40,7 @@ permalink: "/sv/events/{{ pagination.pageNumber | plus: 1 }}/"
   {% assign count = posts | size | divided_by: pagination.size | minus: 1 %}
 
   {% if pagination.pageNumber < count %}
-    <a href="/en/events/{{ pagination.pageNumber | plus: 2 }}">
+    <a href="/sv/events/{{ pagination.pageNumber | plus: 2 }}">
       →
     </a>
   {% else %}

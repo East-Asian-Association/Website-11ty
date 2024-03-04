@@ -19,7 +19,7 @@ Currently we arrange a language café, where we offer the languages:
 Swedish, English, Korean, Mandarin and Japanese. 
 
 **Free fika** is served for all our members the whole year during CC. 
-Read about membership **[here](/about/membership)**.  We arrange CC twice a week on 
+Read about membership [here](../about/membership.html).  We arrange CC twice a week on 
 Tuesdays and Thursdays between **17:15 - 19:00** in the C-building 
 at Campus Valla.
 

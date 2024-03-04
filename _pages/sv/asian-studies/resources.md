@@ -19,6 +19,7 @@ Den här hemsidan länkar till alla resurser man kan tänkas behöva för själv
 Anki är ett program som hanterar flashcards, vilket är den (formodligen) bästa metoden att memorisera fakta, formler, men framförallt glosor! Detta gör anki till en ovärdelig resurs för dig som vill lära dig ett språk eftersom ens förmåga i någon mening hänger på ordförrådet.
 
 Anki Desktop: [länk](https://apps.ankiweb.net/), Anki Android: [länk](https://play.google.com/store/apps/details?id=com.ichi2.anki), Anki iOS: [länk](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387)  
+
 Vill man inte betala för Anki iOS direkt så kan man även använda [https://ankiweb.net/](https://ankiweb.net/) i Safari, men det saknas lite funktioner.
 
 Asienkunskap Ordlek: [länk](https://drive.google.com/file/d/1Ntk57HhiIR0wo458uJSVCI315RrgitZ6/view?usp=sharing)  

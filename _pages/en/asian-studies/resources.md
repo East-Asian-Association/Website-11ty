@@ -19,6 +19,7 @@ This website links to all the resources you might need for self-study of Japanes
 Anki is a program that handles flashcards, which is (arguably) the best way to memorize facts, formulas, but especially glossary! This makes anki an invaluable resource for those who want to learn a language, as one's ability in some sense depends on vocabulary.
 
 Anki Desktop: [link](https://apps.ankiweb.net/), Anki Android: [link](https://play.google.com/store/apps/details?id=com.ichi2.anki), Anki iOS: [link](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387).  
+
 If you don't want to pay for Anki iOS directly, you can also use [https://ankiweb.net/](https://ankiweb.net/) in Safari, but it lacks some features.
 
 Asian Studies Vocabulary deck: [link](https://drive.google.com/file/d/1Ntk57HhiIR0wo458uJSVCI315RrgitZ6/view?usp=sharing)  

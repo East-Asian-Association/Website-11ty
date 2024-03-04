@@ -14,7 +14,7 @@ The East Asian Association, or EAA for short, is a student association at Linkö
 
 Today the association has around **200 members** from all over the world, but primarily Sweden, Japan, China and Korea.
 
-We host a lot of events every year where some are typical Swedish student life events and others are more focused on language and cultural exchange. We encourage everyone to join in these events and have as much fun as possible! If you are interested you can find more information under [Events](/events).
+We host a lot of events every year where some are typical Swedish student life events and others are more focused on language and cultural exchange. We encourage everyone to join in these events and have as much fun as possible! If you are interested you can find more information under [Events](../events/1.html).
 
 ### Our Mission
 
