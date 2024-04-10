@@ -8,7 +8,7 @@
             {
                 "title": "Conversation Corner",
                 "paragrafs": [
-                    "CC is a place for <strong>Cultural Exchange</strong> <strong>Language Learning</strong> and making new <strong>Friends</strong>.",
+                    "CC is a place for <strong>Cultural Exchange</strong>, <strong>Language Learning</strong> and making new <strong>Friends</strong>.",
                     "We meet every <strong>Tuesday</strong> and <strong>Thursday</strong> at <strong>17:15</strong> and all students at Linköping University are welcome!",
                     "<strong>Free Fika</strong> is also available for all our members!</p>"
                 ],
@@ -25,7 +25,7 @@
             {
                 "title": "Sponsorships",
                 "paragrafs": [
-                    "Our student association has <strong>14 years</strong> of experience and annually over <strong>200 active members</strong>.",
+                    "Our student association has <strong>15 years</strong> of experience and annually over <strong>200 active members</strong>.",
                     "We offer various collaboration opportunities such as <strong>Lunch seminars</strong> and <strong>Case events</strong>."
                 ],
                 "img": "/img/sponsor.jpg"
@@ -41,18 +41,25 @@
             {
                 "title": "Conversation Corner",
                 "paragrafs": [
+                    "CC är en plats för <strong>Kulturellt utbyte</strong>, <strong>Språkinlärning</strong> och att lära känna nya <strong>Vänner</strong>.",
+                    "Vi träffas varje <strong>Tisdag</strong> och <strong>Torsdag</strong> kl <strong>17:15</strong> och alla studenter på Linköpings universitet är välkomna!",
+                    "Vi erbjuder också <strong>Gratis Fika</strong> för alla våra medlemmar!"
                 ],
                 "img": "/img/cc-fika.jpg"
             },
             {
                 "title": "Asienkunskap",
                 "paragrafs": [
+                    "EAA är en studentavdelning (Sektion) vid Linköpings universitet ansvarig för programmet <strong>Asienkunskap</strong>.",
+                    "Programmet omfattar ett års språkstudier i antingen <strong>Japanska</strong> eller <strong>Kinesiska</strong>, samt <strong>Nordostasiatisk Historia</strong> och <strong>Politik</strong>"
                 ],
                 "img": "/img/asienkunskap.jpg"
             },
             {
-                "title": "Sponsring",
+                "title": "Sponsorer",
                 "paragrafs": [
+                    "Vi är en studentförening med <strong>15 års</strong> erfarenhet och har årligen över <strong>200 aktiva medlemmar</strong>.",
+                    "Vi erbjuder olika samarbetsmöjligheter såsom <strong>Lunchseminarier</strong> och <strong>Konferanser</strong>."
                 ],
                 "img": "/img/sponsor.jpg"
             }
