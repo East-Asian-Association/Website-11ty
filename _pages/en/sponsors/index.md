@@ -8,7 +8,6 @@ sideNavOrder: 1
 topNavOrder: 3
 ---
 
-
 ### Diversity
 
 EAA is a student association and a student section, and we are more than 200 members active in EAA each year.
@@ -21,4 +20,4 @@ We all have one thing in common, our interest for East Asia.
 
 A majority of our members are fluent or semi-fluent in languages (apart from Swedish and English) such as Japanese, Chinese and Korean.
 
-Many of these combines their engineering master with a specific East Asian language, making them sought after by many employees.
+Many of these combines their education with a specific East Asian language, making them sought after by many employees.
