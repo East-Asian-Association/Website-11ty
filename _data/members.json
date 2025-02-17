@@ -4,10 +4,10 @@
             "en": "President",
             "sv": "Ordförande"
         },
-        "name": "János Kondri",
+        "name": "Theo Jonsson",
         "studorgmail": "ordf@eastasian.studorg.liu.se",
         "gmail": "ordf.eaa@gmail.com",
-        "img": "president.jpg"
+        "img": "president.webp"
        
     },
     {
@@ -15,10 +15,10 @@
             "en": "Vice President",
             "sv": "Vice-Ordförande"
         },
-        "name": "Jesper Eriksson",
+        "name": "Hugo Markemyr",
         "studorgmail": "vordf@eastasian.studorg.liu.se",
         "gmail": "vordf.eaa@gmail.com",
-        "img": "vice.jpg"
+        "img": "vice.webp"
         
     },
     {
@@ -26,100 +26,71 @@
             "en": "Treasurer",
             "sv": "Kassör"
         },
-        "name": "Oskar Savinainen",
+        "name": "Jakob Bagge",
         "studorgmail": "kassor@eastasian.studorg.liu.se",
         "gmail": "kassor.eaa@gmail.com",
-        "img": "treasure.jpg"
+        "img": "treasure.webp"
         
     },
     {
         "post": {
-            "en": "Secretary & Business",
-            "sv": "Sekreterare & Näringslivs-ansvarig"
+            "en": "Secretary",
+            "sv": "Sekreterare"
         },
-        "name": "Ebba Silfver",
+        "name": "Leon Ejlerung",
         "studorgmail": "naringsliv@eastasian.studorg.liu.se",
         "gmail": "naringsliv.eaa@gmail.com",
-        "img": "secretary.jpg"        
-    },
-    {
-        "post": {
-            "en": "AMO",
-            "sv": "AMO"
-        },
-        "name": "Carl Earles",
-        "studorgmail": "amo@eastasian.studorg.liu.se",
-        "gmail": "amo.eaa.liu@gmail.com",
-        "img": "amo.jpg"
-    },
-    {
-        "post": {
-            "en": "Head of Conversation Corner",
-            "sv": "CC-ansvarig"
-        },
-        "name": "Pongpol Jarudrungchawalit",
-        "studorgmail": "cc@eastasian.studorg.liu.se",
-        "gmail": "ccansvarig.eaa@gmail.com",
-        "img": "cc.jpg"
-    },
-    {
-        "post": {
-            "en": "Head of Event",
-            "sv": "Event-ansvarig"
-        },
-        "name": "Raman Ahmadi",
-        "studorgmail": "event@eastasian.studorg.liu.se",
-        "gmail": "eventansvarig.eaa@gmail.com",
-        "img": "event.jpg"
-        
-    },
-    {
-        "post": {
-            "en": "General of TEKKEN",
-            "sv": "TEKKEN-General"
-        },
-        "name": "Tilda Ek",
-        "studorgmail": "general@eastasian.studorg.liu.se",
-        "gmail": "generalen.eaa@gmail.com"
-    },
-    {
-        "post": {
-            "en": "Head of Design",
-            "sv": "Tryck"
-        },
-        "name": "Linn Jägestedt",
-        "studorgmail": "info@eastasian.studorg.liu.se",
-        "gmail": "infoansvarig.eaa@gmail.com"
-    },
-    {
-        "post": {
-            "en": "Educational Committee",
-            "sv": "Snordf"
-        },
-        "name": "Noah Svedlund Avereyireh",
-        "studorgmail": "snordf@eastasian.studorg.liu.se",
-        "gmail": "snordf.eaa@gmail.com",
-        "img": "snordf.jpg"
-        
-    },
-    {
-        "post": {
-            "en": "Head of IT",
-            "sv": "IT-ansvarig"
-        },
-        "name": "Johan Törner",
-        "studorgmail": "",
-        "gmail": "N/A",
-        "img": "it.jpg"
+        "img": "secretary.webp"        
     },
     {
         "post": {
             "en": "Head of Language Exchange",
             "sv": "Språkansvarig"
         },
-        "name": "Yuha Togashi",
+        "name": "Chika Nagare",
         "studorgmail": "",
-        "gmail": "utbytes.eaa@gmail.com"
+        "gmail": "utbytes.eaa@gmail.com",
+        "img": "language.webp"
+    },
+    {
+        "post": {
+            "en": "Head of Conversation Corner",
+            "sv": "CC-ansvarig"
+        },
+        "name": "Elias Jelving",
+        "studorgmail": "cc@eastasian.studorg.liu.se",
+        "gmail": "ccansvarig.eaa@gmail.com",
+        "img": "cc.webp"
+    },
+    {
+        "post": {
+            "en": "Head of Fika",
+            "sv": "Fika-Ansvarig"
+        },
+        "name": "Gabriel Sennerblom",
+        "studorgmail": "cc@eastasian.studorg.liu.se",
+        "gmail": "ccansvarig.eaa@gmail.com",
+        "img": "fika.webp"
+    },
+    {
+        "post": {
+            "en": "Supplement",
+            "sv": "Supplement"
+        },
+        "name": "Johan Törner",
+        "studorgmail": "",
+        "gmail": "N/A",
+        "img": "supplement.webp"
+    },
+    {
+        "post": {
+            "en": "Advisor",
+            "sv": "Rådgivare"
+        },
+        "name": "Ebba Silfver",
+        "studorgmail": "",
+        "gmail": "",
+        "img": "advisor.webp"
     }
     
 ]

@@ -15,14 +15,6 @@
                 "img": "/img/cc-fika.jpg"
             },
             {
-                "title": "Asienkunskap",
-                "paragrafs": [
-                    "EAA is a Student Division (Sektion) at Linköping University responsible for the program <strong>Asienkunskap</strong>.",
-                    "The program covers one year of language studies in either <strong>Japanese</strong> or <strong>Chinese</strong>, aswell as <strong>North-East Asian</strong> <strong>History</strong> and <strong>Politics</strong>"
-                ],
-                "img": "/img/asienkunskap.jpg"
-            },
-            {
                 "title": "Sponsorships",
                 "paragrafs": [
                     "Our student association has <strong>15 years</strong> of experience and annually over <strong>200 active members</strong>.",
@@ -48,14 +40,6 @@
                 "img": "/img/cc-fika.jpg"
             },
             {
-                "title": "Asienkunskap",
-                "paragrafs": [
-                    "EAA är en sektion vid Linköpings universitet som är ansvarig för programmet <strong>Asienkunskap</strong>.",
-                    "Programmet omfattar ett års språkstudier i antingen <strong>Japanska</strong> eller <strong>Kinesiska</strong>, samt <strong>Nordostasiatisk Historia</strong> och <strong>Politik</strong>"
-                ],
-                "img": "/img/asienkunskap.jpg"
-            },
-            {
                 "title": "Sponsorer",
                 "paragrafs": [
                     "Vi är en studentförening med <strong>15 års</strong> erfarenhet och har årligen över <strong>200 aktiva medlemmar</strong>.",
@@ -76,12 +60,6 @@
                 "paragrafs": [
                 ],
                 "img": "/img/cc-fika.jpg"
-            },
-            {
-                "title": "東アジア学",
-                "paragrafs": [
-                ],
-                "img": "/img/asienkunskap.jpg"
             },
             {
                 "title": "スポンサー",
